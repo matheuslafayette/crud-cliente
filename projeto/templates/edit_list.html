@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>editList</title>
+</head>
+<body>
+    <p>
+        <a href="/home/">Home</a>
+    </p>
+    <p>
+        <a href="/logout/">Logout</a>
+    </p>
+    <p>
+        <a href="/edit/create/">Criar</a>
+    </p>
+
+    <h1>Lista:</h1>
+
+    {% for edit in object_list %}
+        <p>Nome = {{ edit.nome }}</p>
+        <p>Endereço = {{ edit.endereco }}</p>
+        <p>Telefone = {{ edit.telefone }}</p>
+        <p> Data nascimento = {{ edit.data_nascimento }}</p>
+        <p>Telefone = {{ edit.telefone }}</p>
+        <p>
+            <a href="/edit/update/{{ edit.id }}/">Atualizar dados</a>
+        </p>
+        <p>
+            <a href="/edit/delete/{{ edit.id }}/">Deletar</a>
+        </p>
+        <p> </p>
+        <br>
+    {% endfor %}
+</body>
+</html>
