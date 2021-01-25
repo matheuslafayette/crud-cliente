@@ -1,4 +1,4 @@
-#crud-cliente
+# crud-cliente
 
 Este é um projeto em python acerda de desenvolvimento web utilizando a biblioteca django do Python. Nele foi criado um login básico, um model cliente e o crud do cliente.
 
