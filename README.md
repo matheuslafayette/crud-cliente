@@ -2,9 +2,9 @@
 
 Este é um projeto em python acerda de desenvolvimento web utilizando a biblioteca django do Python. Nele foi criado um login básico, um model cliente e o crud do cliente.
 
-Já com o python instalado:
-
 ## Criando e executando o ambiente virtual
+
+Já com o python instalado:
 
 No mesmo local onde está a pasta "projeto" deve ser criado o ambiente virtual, para isso vamos instalar a biblioteca virtualvenv:
 
