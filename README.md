@@ -1,6 +1,6 @@
 # crud-cliente
 
-Este é um projeto em python acerda de desenvolvimento web utilizando a biblioteca django do Python. Nele foi criado um login básico, um model e o crud do cliente.
+Este é um projeto em python acerca de desenvolvimento web utilizando a biblioteca django do Python. Nele foi criado um login básico, um model e o crud do cliente.
 
 ## Criando e executando o ambiente virtual
 
