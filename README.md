@@ -30,7 +30,7 @@ Após isso, iremos criar um superusuário para ter acesso ao sistema:
 
 ## Rodando a máquina
 
-Com tudo feito, basta rodar a máquina:
+Com tudo feito, para rodar a máquina:
 
 `python manage.py makemigrations`
 
